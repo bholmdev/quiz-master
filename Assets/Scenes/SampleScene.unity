@@ -385,6 +385,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &531563242 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 996957059017121077, guid: 41f6b951e08748b49aecfa4705fc8103, type: 3}
+  m_PrefabInstance: {fileID: 1362296820}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &659418043 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 996957059017121077, guid: 41f6b951e08748b49aecfa4705fc8103, type: 3}
+  m_PrefabInstance: {fileID: 1607730948}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &801219288
 GameObject:
   m_ObjectHideFlags: 0
@@ -849,6 +859,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questionText: {fileID: 801219290}
   question: {fileID: 11400000, guid: 6865016f65b5aa14794149dd8e6c77a4, type: 2}
+  answerButtons:
+  - {fileID: 2088333933}
+  - {fileID: 659418043}
+  - {fileID: 531563242}
+  - {fileID: 1456161628}
 --- !u!1 &1260176003
 GameObject:
   m_ObjectHideFlags: 0
@@ -923,6 +938,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1260176004}
     m_Modifications:
+    - target: {fileID: 996957058766630699, guid: 41f6b951e08748b49aecfa4705fc8103, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 996957058766630699, guid: 41f6b951e08748b49aecfa4705fc8103, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 996957058766630700, guid: 41f6b951e08748b49aecfa4705fc8103, type: 3}
+      propertyPath: m_fontSize
+      value: 72
+      objectReference: {fileID: 0}
+    - target: {fileID: 996957058766630700, guid: 41f6b951e08748b49aecfa4705fc8103, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 996957059017121077, guid: 41f6b951e08748b49aecfa4705fc8103, type: 3}
       propertyPath: m_Name
       value: Answer Button (2)
@@ -1018,6 +1049,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 996957059017121078, guid: 41f6b951e08748b49aecfa4705fc8103, type: 3}
   m_PrefabInstance: {fileID: 1362296820}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1456161628 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 996957059017121077, guid: 41f6b951e08748b49aecfa4705fc8103, type: 3}
+  m_PrefabInstance: {fileID: 1473385654}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1473385654
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1025,6 +1061,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1260176004}
     m_Modifications:
+    - target: {fileID: 996957058766630699, guid: 41f6b951e08748b49aecfa4705fc8103, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 996957058766630699, guid: 41f6b951e08748b49aecfa4705fc8103, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 996957058766630700, guid: 41f6b951e08748b49aecfa4705fc8103, type: 3}
+      propertyPath: m_fontSize
+      value: 72
+      objectReference: {fileID: 0}
+    - target: {fileID: 996957058766630700, guid: 41f6b951e08748b49aecfa4705fc8103, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 996957059017121077, guid: 41f6b951e08748b49aecfa4705fc8103, type: 3}
       propertyPath: m_Name
       value: Answer Button (3)
@@ -1127,6 +1179,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1260176004}
     m_Modifications:
+    - target: {fileID: 996957058766630699, guid: 41f6b951e08748b49aecfa4705fc8103, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 996957058766630699, guid: 41f6b951e08748b49aecfa4705fc8103, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 996957058766630700, guid: 41f6b951e08748b49aecfa4705fc8103, type: 3}
+      propertyPath: m_fontSize
+      value: 72
+      objectReference: {fileID: 0}
+    - target: {fileID: 996957058766630700, guid: 41f6b951e08748b49aecfa4705fc8103, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 996957059017121077, guid: 41f6b951e08748b49aecfa4705fc8103, type: 3}
       propertyPath: m_Name
       value: Answer Button (1)
@@ -1290,6 +1358,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2088333933 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 996957059017121077, guid: 41f6b951e08748b49aecfa4705fc8103, type: 3}
+  m_PrefabInstance: {fileID: 996957059091132248}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &2088333934 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 996957059017121078, guid: 41f6b951e08748b49aecfa4705fc8103, type: 3}
@@ -1405,6 +1478,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1260176004}
     m_Modifications:
+    - target: {fileID: 996957058766630699, guid: 41f6b951e08748b49aecfa4705fc8103, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 996957058766630699, guid: 41f6b951e08748b49aecfa4705fc8103, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 996957058766630700, guid: 41f6b951e08748b49aecfa4705fc8103, type: 3}
+      propertyPath: m_fontSize
+      value: 72
+      objectReference: {fileID: 0}
+    - target: {fileID: 996957058766630700, guid: 41f6b951e08748b49aecfa4705fc8103, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 996957059017121077, guid: 41f6b951e08748b49aecfa4705fc8103, type: 3}
       propertyPath: m_Name
       value: Answer Button (0)
