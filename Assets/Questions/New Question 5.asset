@@ -13,3 +13,9 @@ MonoBehaviour:
   m_Name: New Question 5
   m_EditorClassIdentifier: 
   question: What is a switch?
+  answers:
+  - 
+  - 
+  - 
+  - 
+  correctAnswerIndex: 0
