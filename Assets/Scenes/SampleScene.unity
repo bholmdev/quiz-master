@@ -712,6 +712,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isAnsweringQuestion: 0
+  fillFracture: 0
   timeToCompleteQuestion: 5
   timeToShowCorrectAnswer: 10
 --- !u!4 &945954521
@@ -1083,7 +1084,7 @@ PrefabInstance:
     - target: {fileID: 996957059017121064, guid: 41f6b951e08748b49aecfa4705fc8103, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: f1c17bcf858731b4eb8ab05ccace684c, type: 3}
+      objectReference: {fileID: 21300000, guid: c74abd4b117510f4caba13d00e7e76e5, type: 3}
     - target: {fileID: 996957059017121077, guid: 41f6b951e08748b49aecfa4705fc8103, type: 3}
       propertyPath: m_Name
       value: Answer Button (2)
@@ -1174,7 +1175,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 996957059017121079, guid: 41f6b951e08748b49aecfa4705fc8103, type: 3}
       propertyPath: m_Interactable
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 996957059017121079, guid: 41f6b951e08748b49aecfa4705fc8103, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -1246,7 +1247,7 @@ PrefabInstance:
     - target: {fileID: 996957059017121064, guid: 41f6b951e08748b49aecfa4705fc8103, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: f1c17bcf858731b4eb8ab05ccace684c, type: 3}
+      objectReference: {fileID: 21300000, guid: c74abd4b117510f4caba13d00e7e76e5, type: 3}
     - target: {fileID: 996957059017121077, guid: 41f6b951e08748b49aecfa4705fc8103, type: 3}
       propertyPath: m_Name
       value: Answer Button (3)
@@ -1337,7 +1338,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 996957059017121079, guid: 41f6b951e08748b49aecfa4705fc8103, type: 3}
       propertyPath: m_Interactable
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 996957059017121079, guid: 41f6b951e08748b49aecfa4705fc8103, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -1404,7 +1405,7 @@ PrefabInstance:
     - target: {fileID: 996957059017121064, guid: 41f6b951e08748b49aecfa4705fc8103, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: f1c17bcf858731b4eb8ab05ccace684c, type: 3}
+      objectReference: {fileID: 21300000, guid: c74abd4b117510f4caba13d00e7e76e5, type: 3}
     - target: {fileID: 996957059017121077, guid: 41f6b951e08748b49aecfa4705fc8103, type: 3}
       propertyPath: m_Name
       value: Answer Button (1)
@@ -1495,7 +1496,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 996957059017121079, guid: 41f6b951e08748b49aecfa4705fc8103, type: 3}
       propertyPath: m_Interactable
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 996957059017121079, guid: 41f6b951e08748b49aecfa4705fc8103, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -1743,7 +1744,7 @@ PrefabInstance:
     - target: {fileID: 996957059017121064, guid: 41f6b951e08748b49aecfa4705fc8103, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: f1c17bcf858731b4eb8ab05ccace684c, type: 3}
+      objectReference: {fileID: 21300000, guid: c74abd4b117510f4caba13d00e7e76e5, type: 3}
     - target: {fileID: 996957059017121077, guid: 41f6b951e08748b49aecfa4705fc8103, type: 3}
       propertyPath: m_Name
       value: Answer Button (0)
@@ -1834,7 +1835,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 996957059017121079, guid: 41f6b951e08748b49aecfa4705fc8103, type: 3}
       propertyPath: m_Interactable
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 996957059017121079, guid: 41f6b951e08748b49aecfa4705fc8103, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
