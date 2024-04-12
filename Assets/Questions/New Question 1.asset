@@ -22,4 +22,4 @@ MonoBehaviour:
     in an AD (Active Directory).
   - The LDAP (lightweight directory access protocol) is used to name the object in
     a PBR (PABST Blue Ribbon).
-  correctAnswerIndex: 1
+  correctAnswerIndex: 0
