@@ -7,17 +7,44 @@ using UnityEngine.UI;
 
 public class Quiz : MonoBehaviour
 {
+    [Header("Questions")]
     [SerializeField] TextMeshProUGUI questionText;
     [SerializeField] QuestionSO question;
+
+    [Header("Answers")]
     [SerializeField] GameObject[] answerButtons;
     int correctAnswerIndex;
+    bool hasAnsweredEarly;
+
+    [Header("Button Colors")]
     [SerializeField] Sprite defaultAnswerSprite;
     [SerializeField] Sprite correctAnswerSprite;
+
+    [Header("Timers")]
+    [SerializeField] Image timerImage;
+    Timer timer;
 
     // Start is called before the first frame update
     void Start()
     {
+        timer = FindObjectOfType<Timer>();
         DisplayQuestion();
+    }
+
+    void Update()
+    {
+        timerImage.fillAmount = timer.fillFracture;
+        if (timer.loadNextQuestion)
+        {
+            hasAnsweredEarly = false;
+            GetNextQuestion();
+            timer.loadNextQuestion = false;
+        }
+        else if (!hasAnsweredEarly && !timer.isAnsweringQuestion)
+        {
+            DisplayAnswer(-1);
+            SetButtonState(false);
+        }
     }
 
     void DisplayQuestion()
@@ -31,14 +58,7 @@ public class Quiz : MonoBehaviour
         }
     }
 
-    void GetNextQuestion()
-    {
-        SetButtonState(true);
-        SetDefaultButtonSprites();
-        DisplayQuestion();
-    }
-
-    public void OnAnswerSelected(int index)
+    void DisplayAnswer(int index)
     {
         Image buttonImage;
 
@@ -56,7 +76,21 @@ public class Quiz : MonoBehaviour
             buttonImage = answerButtons[correctAnswerIndex].GetComponent<Image>();
             buttonImage.sprite = correctAnswerSprite;
         }
+    }
+
+    public void OnAnswerSelected(int index)
+    {
+        hasAnsweredEarly = true;
+        DisplayAnswer(index);
         SetButtonState(false);
+        timer.CancelTimer();
+    }
+
+    void GetNextQuestion()
+    {
+        SetButtonState(true);
+        SetDefaultButtonSprites();
+        DisplayQuestion();
     }
 
     void SetButtonState(bool state)

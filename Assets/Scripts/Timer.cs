@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class Timer : MonoBehaviour
 {
+    [SerializeField] float timeToCompleteQuestion = 30f;
+    [SerializeField] float timeToShowCorrectAnswer = 10f;
+
     public bool isAnsweringQuestion = false;
     public bool loadNextQuestion = false;
     public float fillFracture;
     
     float timerValue;
-
-    [SerializeField] float timeToCompleteQuestion = 30f;
-    [SerializeField] float timeToShowCorrectAnswer = 10f;
 
     // Update is called once per frame
     void Update()
