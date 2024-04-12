@@ -12,14 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8dddeddc4fc7344aa00e90e734eea96, type: 3}
   m_Name: New Question 1
   m_EditorClassIdentifier: 
-  question: What is Lightweight Directory Access Protocol?
+  question: What is Lightweight Directory Access Protocol (LDAP)l?
   answers:
-  - The LDAP (lightweight directory access protocol) is used to name the object in
-    an AD (Active Directory).
-  - The LDAP (lightweight directory access protocol) is used to name the object in
-    a DNS (Domain Name System).
-  - The LDAP (lightweight directory access protocol) is used to create the object
-    in an AD (Active Directory).
-  - The LDAP (lightweight directory access protocol) is used to name the object in
-    a PBR (PABST Blue Ribbon).
+  - The LDAP is used to name the object in an AD (Active Directory).
+  - The LDAP is used to name the object in a DNS (Domain Name System).
+  - The LDAP is used to create the object in an DA (District Attorney).
+  - The LDAP is used to name the object in a domain tree.
   correctAnswerIndex: 0

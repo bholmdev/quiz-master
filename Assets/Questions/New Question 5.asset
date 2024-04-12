@@ -14,8 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   question: What is a switch?
   answers:
-  - 
-  - 
-  - 
-  - 
-  correctAnswerIndex: 0
+  - A switch is a singleiport network bridge that uses MAC addresses to forward data
+    at the data link layer (layer 2) of the OSI model.
+  - A switch is a multiport network router that uses MAC addresses to forward data
+    at the data link layer (layer 2) of the OSI model.
+  - A switch is an electronic devie controlled by switching an active electronic
+    component or device.
+  - A switch is a multiport network bridge that uses MAC addresses to forward data
+    at the data link layer (layer 2) of the OSI model.
+  correctAnswerIndex: 3
